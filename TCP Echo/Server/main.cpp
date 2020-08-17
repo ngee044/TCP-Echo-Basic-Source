@@ -66,7 +66,7 @@ int main()
 	}
 
 	closesocket(clientSocket);
-	closesocket(clientSocket);
+	closesocket(serverSocket);
 	WSACleanup();
 	system("pause");
 	return 0;
