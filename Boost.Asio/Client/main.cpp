@@ -10,13 +10,15 @@ int main()
     t.wait();
     std::cout << "Hello, world!" << std::endl;
     system("pause");
-    return 0;
+    return 0;
+
 }
 #else
 
 #include <iostream>
 #include <boost/array.hpp>
 #include <boost/asio.hpp>
+
 using boost::asio::ip::tcp;
 using namespace std;
 
